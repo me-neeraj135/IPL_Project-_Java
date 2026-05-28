@@ -15,8 +15,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        List<Match> matches = CSVReader.read("/home/nkr/Desktop/FileHandling/src/data/matches.csv", DataParser::toMatch);
-        List<Delivery> deliveries = CSVReader.read("/home/nkr/Desktop/FileHandling/src/data/deliveries.csv", DataParser::toDelivery);
+        List<Match> matches = CSVReader.read("/home/nkr/Desktop/IPLProject/src/data/matches.csv", DataParser::toMatch);
+        List<Delivery> deliveries = CSVReader.read("/home/nkr/Desktop/IPLProject/src/data/deliveries.csv", DataParser::toDelivery);
 
 
         IPLService service = new IPLService();
