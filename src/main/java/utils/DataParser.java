@@ -1,9 +1,8 @@
-package utils;
+package main.java.utils;
 
-import model.Delivery;
-import model.Match;
+import main.java.model.Delivery;
+import main.java.model.Match;
 
-import java.io.IOException;
 import java.util.Map;
 
 public class DataParser {

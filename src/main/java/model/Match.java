@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 public class Match {
     private String id;

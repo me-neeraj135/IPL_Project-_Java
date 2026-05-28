@@ -1,6 +1,5 @@
-package utils;
+package main.java.utils;
 
-import javax.swing.plaf.basic.BasicBorders;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

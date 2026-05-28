@@ -1,8 +1,10 @@
-import model.Delivery;
-import model.Match;
-import utils.CSVReader;
-import utils.DataParser;
-import services.IPLService;
+package main.java;
+
+import main.java.model.Delivery;
+import main.java.model.Match;
+import main.java.utils.CSVReader;
+import main.java.utils.DataParser;
+import main.java.services.IPLService;
 
 import java.io.IOException;
 import java.util.List;
@@ -32,6 +34,7 @@ public class Main {
                 System.out.println("4- For the year 2015 get the top economical bowlers.");
                 System.out.println("5- Top Batsman.");
                 System.out.println("0- Exit.");
+
                 System.out.println("\ninput your choice : ");
 
 
@@ -55,6 +58,7 @@ public class Main {
                     case 4:
                         Map<String, int[]> stats = service.topEconomicalBowlers2015(matches, deliveries);
                         service.printBowlerStats(stats);
+                        System.out.print(stats);
                         break;
                     case 5:
                         Map<String, String> topBatsmanByYear = service.topBatsmanPerYear(matches, deliveries);
